@@ -1,0 +1,39 @@
+/* ********************* */
+/* TESTMONIAL-SECTION*/
+/* *********************** */
+
+.testmonial_section {
+  background: linear-gradient(rgba(215, 70, 129, 0.8), rgba(215, 70, 129, 0.8)),
+    url(../resources/img/background/testimonial-bg.jpg) no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
+/*PARAGRAPH*/
+.little_descripton {
+  font-size: 1.8rem;
+  width: 60%;
+  margin-left: 20%;
+  line-height: 3rem;
+  color: #ffffff;
+}
+
+.client_photo img {
+  height: 7.5rem;
+  width: 7.5rem;
+  border-radius: 50%;
+  margin-bottom: 3rem;
+}
+.client_review {
+  /* overflow: hidden; */
+  /* width: 30rem; */
+}
+.client_review p {
+  font-size: 1.5rem;
+  color: #ffffff;
+  font-style: italic;
+  margin-top: 0;
+  margin-bottom: 2.4rem;
+  height: auto;
+}

@@ -1,0 +1,31 @@
+/* ********************* */
+/* SERVICES-SECTION*/
+/* *********************** */
+.service_section {
+  background: linear-gradient(rgba(23, 194, 164, 0.9), rgba(23, 194, 164, 0.9)),
+    url(../resources/img/background/services-bg.jpg) no-repeat;
+  background-size: cover;
+  background-position: center top;
+  background-attachment: fixed;
+  text-align: center;
+}
+.service_section h2::after {
+  background: #14a58c;
+}
+.service_icon {
+  height: 12rem;
+  margin-top: 4.5rem;
+  margin-bottom: 3.5rem;
+}
+.service_section .box p {
+  color: #f2e7f4;
+}
+
+/*PARAGRAPH*/
+.little_descripton {
+  font-size: 1.8rem;
+  width: 60%;
+  margin-left: 20%;
+  line-height: 3rem;
+  color: #ffffff;
+}
