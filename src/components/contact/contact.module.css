@@ -1,0 +1,57 @@
+/* ********************* */
+/* CONTACT-SECTION*/
+/* *********************** */
+
+.contact_section {
+  background: linear-gradient(rgba(60, 84, 154, 0.8), rgba(60, 84, 154, 0.8)),
+    url(../resources/img/background/contact-bg.jpg) no-repeat;
+  background-size: cover;
+  background-position: center 30%;
+  background-attachment: fixed;
+  text-align: center;
+}
+.contact_section h2::after {
+  background: #273b6e;
+}
+/*PARAGRAPH*/
+.little_descripton {
+  font-size: 1.8rem;
+  width: 60%;
+  margin-left: 20%;
+  line-height: 3rem;
+  color: #ffffff;
+  text-align: center;
+}
+
+.contact_section input[type="text"],
+.contact_section input[type="email"],
+.contact_section textarea {
+  background: #273a71;
+  border: 0.1rem solid #273a71;
+  width: 100%;
+  padding: 1.5rem;
+  border-radius: 0.3rem;
+  font-size: 1.6rem;
+  color: #ffffff;
+}
+.contact_section input:focus,
+.contact_section textarea:focus {
+  outline: none;
+}
+.contact_section textarea {
+  height: 20rem;
+}
+.contact_section form ::placeholder {
+  color: #ffffff;
+  opacity: 1;
+}
+.btn_submit {
+  background: #30bae8;
+  border-color: #29a0c2;
+  transition: 0.5s;
+}
+.btn_submit:hover {
+  cursor: pointer;
+  background: #ffffff;
+  color: #273a71;
+}
