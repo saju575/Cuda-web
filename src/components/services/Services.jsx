@@ -1,29 +1,32 @@
 import styles from "./services.module.css";
 
+/* 
+  dummy data for sevices
+*/
 const services = [
   {
     id: 1,
     title: "Branding",
     img: "resources/img/flag.png",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum libero esse, pariatu dolores rem placeat totam unde vero amet perferendis.",
+    desc: "Elevate your brand identity with captivating logos and messaging that leave a lasting impression on your audience.",
   },
   {
     id: 2,
     title: "development",
     img: "resources/img/gears.png",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum libero esse, pariatu dolores rem placeat totam unde vero amet perferendis.",
+    desc: "We craft robust and responsive websites and mobile apps tailored to your unique business needs.",
   },
   {
     id: 3,
     title: "design",
     img: "resources/img/crayon.png",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum libero esse, pariatu dolores rem placeat totam unde vero amet perferendis.",
+    desc: "Our creative team designs visually stunning interfaces, ensuring a seamless user experience and exceptional aesthetics.",
   },
   {
     id: 4,
     title: "rocket science",
     img: "resources/img/rocket.png",
-    desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum libero esse, pariatu dolores rem placeat totam unde vero amet perferendis.",
+    desc: "Explore cutting-edge solutions and innovation that propel your digital projects into the future of technology.",
   },
 ];
 
@@ -63,7 +66,7 @@ const Services = () => {
               <h3 className="text-white text-3xl font-semibold uppercase">
                 {service.title}
               </h3>
-              <p className="text-[#f2e7f4] text-xl mt-4">{service.desc}</p>
+              <p className="text-[#f2e7f4] text-2xl mt-4">{service.desc}</p>
             </div>
           ))}
         </div>

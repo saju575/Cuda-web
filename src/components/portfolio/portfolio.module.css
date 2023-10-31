@@ -1,0 +1,57 @@
+/* ********************* */
+/* PORTFOLIO-SECTION*/
+/* *********************** */
+
+.portfolio_section {
+  background: linear-gradient(
+      rgba(255, 221, 153, 0.8),
+      rgba(255, 221, 153, 0.8)
+    ),
+    url(../resources/img/background/portfolio-bg.jpg) no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  text-align: center;
+  font-family: "Titillium Web", sans-serif;
+}
+
+/*PARAGRAPH*/
+.little_descripton {
+  font-size: 1.8rem;
+  width: 60%;
+  margin-left: 20%;
+  line-height: 3rem;
+  text-align: center;
+}
+
+.portfolio_section h2,
+.portfolio_section p {
+  color: #393938;
+}
+.portfolio_section h2::after {
+  background: #e6c37f;
+}
+
+.portfolio_filter {
+  margin: 4.5rem 0;
+}
+.portfolio_filter button {
+  background: #ebc985;
+  font-size: 1.4rem;
+  padding: 0.8rem 1.8rem;
+  border: none;
+  border-radius: 0.3rem;
+  text-transform: uppercase;
+  color: #3c4761;
+  margin: 0.5rem 0.5rem;
+  transition: 0.5s;
+}
+.portfolio_filter button:hover {
+  cursor: pointer;
+  box-shadow: inset 0 0.3rem 0.5rem rgba(60, 71, 97, 0.7);
+  background: #ffffff;
+}
+.active {
+  box-shadow: inset 0 0.3rem 0.5rem rgba(60, 71, 97, 0.7);
+  background: #ffffff;
+}

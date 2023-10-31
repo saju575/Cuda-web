@@ -1,0 +1,45 @@
+.logo {
+  height: 3rem;
+  width: auto;
+}
+
+/* ---------Footer Start------- */
+.footer {
+  background: linear-gradient(rgba(135, 80, 156, 0.9), rgba(135, 80, 156, 0.8));
+  padding: 50px 0 0;
+}
+.footer_col h3 {
+  font-size: 18px;
+  font-weight: 500;
+  color: #fff;
+  margin: 0 0 25px;
+  text-transform: capitalize;
+}
+
+.footer_col ul {
+  margin: 0;
+}
+.footer_col ul li:not(:last-child) {
+  margin-bottom: 10px;
+}
+.footer_col ul li {
+  color: rgba(255, 255, 255, 0.9);
+  font-weight: 300;
+
+  text-transform: capitalize;
+  transition: all 0.5s ease;
+  text-decoration: none;
+}
+.footer_col ul li:hover {
+  padding-left: 5px;
+}
+
+.copyright_text {
+  text-align: center;
+  padding: 20px 0;
+  margin: 50px 0 0;
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.9);
+  font-weight: 300;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+}

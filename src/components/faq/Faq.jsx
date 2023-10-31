@@ -9,6 +9,9 @@ import {
 import "react-accessible-accordion/dist/fancy-example.css";
 import styles from "./faq.module.css";
 
+/* 
+  dummy question
+*/
 const items = [
   {
     id: 1,
@@ -76,8 +79,11 @@ const items = [
 
 const Faq = () => {
   return (
-    <section className={`${styles.faq_section} pt-20 pb-24 px-2`} id="team">
+    <section className={`${styles.faq_section} pt-20 pb-24 px-2`} id="faq">
       <div className="container mx-auto">
+        {/* 
+          section header
+        */}
         <div className="mb-14">
           <h2 className="section_heading text">Question</h2>
           <p className={`${styles.little_descripton}`}>
@@ -86,6 +92,9 @@ const Faq = () => {
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 lg:gap-8">
+          {/* 
+            left content
+          */}
           <div className="flex flex-col items-start gap-9">
             <img src="/resources/faq.svg" alt="faq" className="w-48" />
             <h5 className="text-5xl font-semibold">
@@ -98,6 +107,10 @@ const Faq = () => {
               valuable time.
             </p>
           </div>
+
+          {/* 
+            right content including question and answer 
+          */}
           <div className="h-[450px] overflow-y-auto">
             <Accordion allowZeroExpanded>
               {items.map((item) => (

@@ -21,6 +21,7 @@
 * {
   scrollbar-width: thin;
   scrollbar-color: rgba(0, 0, 0, 0.5);
+  font-family: "Titillium Web", sans-serif;
 }
 
 html {

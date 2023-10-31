@@ -1,3 +1,4 @@
+import { HashLink } from "react-router-hash-link";
 import styles from "./header.module.css";
 
 const Header = () => {
@@ -10,9 +11,9 @@ const Header = () => {
             Hi there! We are the new kids on the block and we build awesome
             websites and mobile apps.
           </h1>
-          <a href="#contact" className={`btn ${styles.btn_hero}`}>
+          <HashLink to="/#contact" className={`btn ${styles.btn_hero}`}>
             work with us!
-          </a>
+          </HashLink>
         </div>
       </div>
     </header>

@@ -1,28 +1,32 @@
 import styles from "./reviews.module.css";
 
+/* 
+  dummy data for review
+*/
+
 const reviews = [
   {
     id: 1,
     img: "resources/img/1.jpg",
-    msg: "Lorem ipsum, dolor sit amet consectetur adipisicing elit.Nisi omnis obcaecati sunt amet iste ut laudantium quo reprehenderit!",
+    msg: "Cuda has truly exceeded our expectations. Their innovative designs and exceptional development have transformed our online presence. Highly recommended!",
     name: "Chanel iman",
   },
   {
-    id: 1,
+    id: 2,
     img: "resources/img/2.jpg",
-    msg: "Lorem ipsum, dolor sit amet consectetur adipisicing elit.Nisi omnis obcaecati sunt amet iste ut laudantium quo reprehenderit!",
+    msg: "Working with Cuda was a game-changer for our branding. Their CEO's visionary approach and the talented team make them a top choice for any digital project.",
     name: "adriana lima",
   },
   {
-    id: 1,
+    id: 3,
     img: "resources/img/3.jpg",
-    msg: "Lorem ipsum, dolor sit amet consectetur adipisicing elit.Nisi omnis obcaecati sunt amet iste ut laudantium quo reprehenderit!",
+    msg: "Cuda's Lead Designer has an unmatched creative flair. The designs they produced were not only beautiful but also highly functional. A pleasure to work with!",
     name: "anne hathaway",
   },
   {
-    id: 1,
+    id: 4,
     img: "resources/img/4.jpg",
-    msg: "Lorem ipsum, dolor sit amet consectetur adipisicing elit.Nisi omnis obcaecati sunt amet iste ut laudantium quo reprehenderit!",
+    msg: "Cuda's Lead Developer delivered a user-friendly website ahead of schedule. Their professionalism and technical expertise are second to none",
     name: "emma stone",
   },
 ];

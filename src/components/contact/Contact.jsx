@@ -7,6 +7,9 @@ const Contact = () => {
       id="contact"
     >
       <div className="container mx-auto">
+        {/* 
+          content heading
+        */}
         <div className="mb-16">
           <h2 className="section_heading">get in touch</h2>
           <p className={`${styles.little_descripton}`}>
@@ -14,6 +17,10 @@ const Contact = () => {
             America. Tel:(202)458-111
           </p>
         </div>
+
+        {/* 
+          form content
+        */}
         <div className="mx-2">
           <form className="lg:w-[70%] mx-auto">
             <div className="flex md:flex-row flex-col gap-5 mb-4">
