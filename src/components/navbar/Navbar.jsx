@@ -109,19 +109,7 @@ const Navbar = () => {
               testmonial
             </HashLink>
           </li>
-          <li>
-            <HashLink
-              smooth
-              to="/#contact"
-              className={`${
-                location.pathname === "/" &&
-                location.hash === "#contact" &&
-                styles.active_btn
-              }`}
-            >
-              contact
-            </HashLink>
-          </li>
+
           <li>
             <HashLink
               smooth
@@ -133,6 +121,20 @@ const Navbar = () => {
               }`}
             >
               faq
+            </HashLink>
+          </li>
+
+          <li>
+            <HashLink
+              smooth
+              to="/#contact"
+              className={`${
+                location.pathname === "/" &&
+                location.hash === "#contact" &&
+                styles.active_btn
+              }`}
+            >
+              contact
             </HashLink>
           </li>
         </ul>
@@ -164,20 +166,24 @@ const Navbar = () => {
               <HashLink to="/#header" onClick={handleOverlayClick}>
                 home
               </HashLink>
+              <HashLink to="/#about" onClick={handleOverlayClick}>
+                about
+              </HashLink>
               <HashLink to="/#service" onClick={handleOverlayClick}>
                 service
               </HashLink>
               <HashLink to="/#team" onClick={handleOverlayClick}>
                 team
               </HashLink>
-              <HashLink to="/#skill" onClick={handleOverlayClick}>
-                skill
-              </HashLink>
+
               <HashLink to="/#portfolio" onClick={handleOverlayClick}>
                 portfolio
               </HashLink>
               <HashLink to="/#testmonial" onClick={handleOverlayClick}>
                 testmonial
+              </HashLink>
+              <HashLink to="/#faq" onClick={handleOverlayClick}>
+                faq
               </HashLink>
               <HashLink to="/#contact" onClick={handleOverlayClick}>
                 contact

@@ -80,7 +80,7 @@ function Footer() {
                 </HashLink>
               </li>
               <li>
-                <HashLink smooth to="/#testimonial">
+                <HashLink smooth to="/#testmonial">
                   testimonial
                 </HashLink>
               </li>
