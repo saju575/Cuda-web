@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { FaBars } from "react-icons/fa6";
 import { Link } from "react-router-dom";
+import { HashLink, NavHashLink } from "react-router-hash-link";
 import styles from "./navbar.module.css";
 
 const Navbar = () => {
@@ -29,15 +30,23 @@ const Navbar = () => {
         */}
         <ul className={`${styles.main_nav} lg:block hidden`}>
           <li>
-            <Link className={`${styles.active_btn}`} to="/#header">
+            <HashLink smooth className={`${styles.active_btn}`} to="/#header">
               home
-            </Link>
+            </HashLink>
           </li>
           <li>
-            <Link to="/#service">service</Link>
+            <NavHashLink
+              activeClassName={`${styles.active_btn}`}
+              smooth
+              to="/#service"
+            >
+              service
+            </NavHashLink>
           </li>
           <li>
-            <Link to="/#team">team</Link>
+            <HashLink smooth to="/#team">
+              team
+            </HashLink>
           </li>
           <li>
             <Link to="/#skill">skill</Link>
@@ -46,10 +55,14 @@ const Navbar = () => {
             <Link to="/#portfolio">portfolio</Link>
           </li>
           <li>
-            <Link to="/#testmonial">testmonial</Link>
+            <HashLink smooth to="/#testmonial">
+              testmonial
+            </HashLink>
           </li>
           <li>
-            <Link to="/#contact">contact</Link>
+            <HashLink smooth to="/#contact">
+              contact
+            </HashLink>
           </li>
         </ul>
 

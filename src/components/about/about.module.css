@@ -1,0 +1,38 @@
+.about_section {
+  background: linear-gradient(
+      rgba(231, 241, 248, 0.9),
+      rgba(231, 241, 248, 0.9)
+    ),
+    url(../resources/img/background/team-bg.jpg) no-repeat;
+  background-size: cover;
+  background-position: center top;
+  background-attachment: fixed;
+  text-align: center;
+}
+
+.about_section h2 {
+  color: #3b4661;
+}
+.about_section h2::after {
+  border-color: #c7d9e7;
+}
+
+.about_section p {
+  color: #3b4661;
+}
+/*PARAGRAPH*/
+.little_descripton {
+  font-size: 1.8rem;
+  width: 60%;
+  margin-left: 20%;
+  line-height: 3rem;
+  text-align: center;
+}
+
+.zoom_effect {
+  transition: transform 0.3s ease-in-out;
+}
+
+.zoom_effect:hover {
+  transform: scale(1.03);
+}
